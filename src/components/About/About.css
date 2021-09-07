@@ -1,0 +1,26 @@
+.about-wrap {
+  margin: 50px 0;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 40px;
+}
+
+.about__img img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about__content p {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+}
+
+.about__content p span{
+  font-weight: bold;
+}

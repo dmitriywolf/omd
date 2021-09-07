@@ -1,0 +1,12 @@
+.movie__list-wrap {
+  margin-top: 20px;
+}
+
+.movie__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie__list li {
+  display: flex;
+}

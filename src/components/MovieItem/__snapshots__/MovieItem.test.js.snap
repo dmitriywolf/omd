@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render MovieItem component with props 1`] = `
+<div
+  className="card movie__item"
+>
+  <div
+    className="card-image movie__item-img"
+  >
+    <img
+      alt="Title movie"
+      src="src/img.png"
+    />
+  </div>
+  <h3
+    className="movie__item-title"
+  >
+    Title movie
+  </h3>
+  <div
+    className="movie__item-content"
+  >
+    <p>
+       
+      Year: 2008
+    </p>
+    <Link
+      to="/movies/tt34444"
+    >
+      <button
+        className="movie__btn"
+      >
+        Open
+      </button>
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`should render MovieItem component without props 1`] = `
+<div
+  className="card movie__item"
+>
+  <div
+    className="card-image movie__item-img"
+  >
+    <img
+      alt="undefined"
+      src="undefined"
+    />
+  </div>
+  <h3
+    className="movie__item-title"
+  />
+  <div
+    className="movie__item-content"
+  >
+    <p>
+       
+      Year: undefined
+    </p>
+    <Link
+      to="/movies/undefined"
+    >
+      <button
+        className="movie__btn"
+      >
+        Open
+      </button>
+    </Link>
+  </div>
+</div>
+`;

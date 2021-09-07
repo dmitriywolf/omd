@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component: should render Menu component 1`] = `
+<div
+  className="menu"
+>
+  <NavLink
+    activeClassName="_active"
+    className="menu__link"
+    exact={true}
+    to="/"
+  >
+    Home
+  </NavLink>
+  <NavLink
+    activeClassName="_active"
+    className="menu__link"
+    to="/about"
+  >
+    About team
+  </NavLink>
+</div>
+`;

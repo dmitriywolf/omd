@@ -1,0 +1,40 @@
+.movie__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+
+.movie__item-img {
+  margin-bottom: auto;
+}
+
+.movie__item-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 25px 10px;
+}
+
+.movie__item-content p {
+  font-size: 16px;
+}
+
+.movie__item-title {
+  margin: 10px 10px 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.movie__btn {
+  border: 0;
+  padding: 8px 15px;
+  color: #ffffff;
+  background-color: black;
+}
+
+.movie__btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

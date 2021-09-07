@@ -1,0 +1,16 @@
+.search__button {
+  border: 0;
+  padding: 15px 30px;
+  color: #ffffff;
+  background-color: black;
+}
+
+.search__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.search__button:active {
+  opacity: 1;
+  background-color: black;
+}

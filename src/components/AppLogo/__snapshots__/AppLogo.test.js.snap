@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppLogo component: should render AppLogo component 1`] = `
+<h2
+  className="app__logo"
+>
+  OMDb API Movies
+</h2>
+`;
