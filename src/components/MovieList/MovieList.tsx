@@ -14,7 +14,7 @@ type CompProp = {
 }
 
 const MovieList: React.FC<CompProp> = ({movies}) => {
-  let elements = movies.map((movie) => {
+  const elements = movies.map((movie) => {
     return (
       <li key={movie.imdbID} className="col lg3 m3 s3">
         <MovieItem

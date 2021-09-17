@@ -10,6 +10,6 @@ export const getMovieError = (error: (null | string)) => ({
   payload: error
 });
 
-export const getMovieLoading = ({
+export const getMovieLoading = {
   type: GET_MOVIE_LOADING
-});
+};
