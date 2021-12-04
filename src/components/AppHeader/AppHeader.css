@@ -1,0 +1,9 @@
+.app__header {
+  padding: 20px 0;
+  background-color: rgba(4, 9, 3, 0.91);
+}
+
+.app__header-inner {
+  display: flex;
+  justify-content: space-between;
+}

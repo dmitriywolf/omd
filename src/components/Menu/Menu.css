@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__link {
+  margin: 0 10px;
+  font-size: 20px;
+  color: grey;
+  text-transform: uppercase;
+}
+
+.menu__link:hover {
+  color: #ffffff;
+}
+
+.menu__link._active {
+  color: white;
+}

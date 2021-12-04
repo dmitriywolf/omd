@@ -1,0 +1,23 @@
+.movie__wrap {
+  margin: 50px 0;
+}
+
+.movie__content-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 40px;
+}
+
+.movie__content p {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+}
+
+.movie__content p span{
+  font-weight: bold;
+}
+
+.movie__plot {
+  font-size: 20px;
+}

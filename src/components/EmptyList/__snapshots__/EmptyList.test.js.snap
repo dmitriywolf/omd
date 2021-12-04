@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyList component: should render EmptyList component 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Use the search form to find films...
+  </h2>
+</div>
+`;

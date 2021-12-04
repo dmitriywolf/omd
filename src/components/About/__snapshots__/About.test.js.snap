@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component: should render About component 1`] = `
+<header
+  className="app__header"
+>
+  <div
+    className="container app__header-inner"
+  >
+    <AppLogo />
+    <Menu />
+  </div>
+</header>
+`;
