@@ -18,7 +18,7 @@ const App = () => {
       <Router>
         <AppHeader/>
         <Switch>
-          <Route exact path='/' render={() => {
+          <Route exact path='./' render={() => {
             return (
               <div>
                 <Search/>
